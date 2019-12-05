@@ -1,0 +1,206 @@
+body
+{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    color: #535658;
+}
+
+.btn.btn-primary {
+    background: #0e9a9e !important;
+    border: 0;
+    padding: 10px 40px;
+    font-weight: 500;
+    color: white;
+    box-shadow: none !important;
+}
+
+.btn.btn-primary:hover{
+
+    background: #067579 !important;
+
+}
+
+.btn.btn-secondary {
+    padding: 10px 40px;
+    font-weight: 500;
+    border:0;
+
+}
+
+.login-page
+{
+    background: url(../images/bg-login.jpg) no-repeat left center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-form{
+
+    background-color: rgba(255, 255, 255, .7);
+    backdrop-filter: blur(5px);
+
+}
+
+.input-group input {
+    background: none;
+    border: 0;
+    border-bottom: 2px solid #0E9A9E;
+    border-radius: 0;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #0E9A9E;
+    background-color: #0E9A9E;
+}
+
+.input-group input::placeholder {
+    color: #535658;
+    font-weight: 500;
+}
+
+.input-group .input-group-append {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0e9a9e;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #0e9a9e;
+    padding-right: 15px;
+}
+
+.input-group>.form-control:focus, .input-group>.form-control:focus ~ .input-group-append {
+    background: none !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid #11d4da !important;
+}
+
+.input-group>.form-control:focus ~ .input-group-append {
+    color: #11d4da;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #0E9A9E;
+}
+
+.navbar-light .nav-link i {
+    font-size: 1.5rem;
+}
+
+.navbar-light .nav-link {
+    display: flex;
+}
+
+.navbar-brand
+{
+    height: 90px;
+}
+
+.header-pages {
+    flex-basis: 0;
+    min-height: 90px;
+}
+
+.content-section
+{
+    background:#F4F4F4;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.cursor-pointer
+{
+    cursor:pointer;
+}
+
+.content-panel
+{
+    background: white;
+    flex: 1;
+    max-width: 96%;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0px rgba(0,0,0,.15);
+    overflow-y: auto;
+    padding-bottom: 30px !important;
+}
+
+.content-panel::-webkit-scrollbar{
+    width:7px
+}
+
+.content-panel::-webkit-scrollbar-track{
+    background:transparent;
+    border-radius:10px
+}
+
+.content-panel::-webkit-scrollbar-thumb{
+    background:#535658;
+    border-radius: 0 10px 10px 0;
+}
+
+.content-panel header {
+    background: #0e9a9e;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    position: sticky;
+    top:0;
+    z-index: 99;
+}
+
+.search-tool {
+    background: white;
+    color: #0e9a9e;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.search-tool input {
+    border-bottom: 0;
+    padding-right: 0;
+}
+
+.search-tool .input-group>.form-control:focus {
+    background: none !important;
+    box-shadow: none !important;
+    border-bottom: 0 !important;
+}
+
+.fa-edit
+{
+    color:#0071D4;
+}
+
+.fa-eye
+{
+    color: #009E10;
+}
+
+.fa-trash-alt
+{
+    color: #FF0000;
+}
+
+.fa-toggle-on
+{
+    color: #0E9A9E;
+}
+
+.fa-toggle-off
+{
+    color: #FF0000;
+}
+
+@media (min-width: 992px) {
+
+    .border-lg-bottom {
+        border-bottom: 1px solid #dee2e6!important;
+    }
+
+}
